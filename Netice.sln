@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netice.Api", "Netice.Api\Netice.Api.csproj", "{72E9F209-C687-4181-9AD4-D3B9D2002B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netice.Data", "Netice.Data\Netice.Data.csproj", "{A184AD33-EDC0-479C-911B-0E1675A39E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netice.Models", "Netice.Models\Netice.Models.csproj", "{900EEE7A-7F5C-4A8D-9F8C-BF1D550AA9C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E9F209-C687-4181-9AD4-D3B9D2002B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E9F209-C687-4181-9AD4-D3B9D2002B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E9F209-C687-4181-9AD4-D3B9D2002B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E9F209-C687-4181-9AD4-D3B9D2002B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A184AD33-EDC0-479C-911B-0E1675A39E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A184AD33-EDC0-479C-911B-0E1675A39E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A184AD33-EDC0-479C-911B-0E1675A39E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A184AD33-EDC0-479C-911B-0E1675A39E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900EEE7A-7F5C-4A8D-9F8C-BF1D550AA9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900EEE7A-7F5C-4A8D-9F8C-BF1D550AA9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900EEE7A-7F5C-4A8D-9F8C-BF1D550AA9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900EEE7A-7F5C-4A8D-9F8C-BF1D550AA9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

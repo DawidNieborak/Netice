@@ -1,0 +1,23 @@
+﻿@page
+@model Netice.Api.Pages.Account.Login
+
+@{
+    ViewData["Title"] = "Netice Login";
+    Layout = "_Layout";
+}
+
+<form method="post">
+    <div class="circle"></div>
+    <h1>Welcome back!</h1>
+    <input type="hidden" asp-for="Form.ReturnUrl" value="@Model.Form.ReturnUrl">
+     <label for="username">EMAIL</label>
+    <input class="username" asp-for="Form.Username">
+    <span asp-validation-for="Form.Username" class="error"></span>
+    <label for="password">password</label>
+    <input class="password" asp-for="Form.Password">
+    <span asp-validation-for="Form.Password" class="error"></span>
+    <button type="submit">Sign In 👏</button>
+
+    <a class="registerReference" asp-page="/Account/Register" asp-route-returnUrl="@Model.Form.ReturnUrl">Don't have account? Sign up!</a>
+    <div class="circle"></div>
+</form>

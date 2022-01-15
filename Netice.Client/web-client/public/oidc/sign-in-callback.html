@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authenticating...</title>
+    
+    <style>
+        .loadingContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 50px;
+            height: 100vh;
+            width: 100%;
+            transition: 1s all;
+        }
+
+        .msg {
+            font-weight: normal;
+            line-height: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: .4rem;
+            transition: 1s all;
+            font-size: 1.5rem;
+            color: #7F96FF;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="loadingContainer">
+        <img src="./undraw_social_growth_re_tjy9.svg" width="320px" alt="Loading..">
+        <div class = "msg">Hello, nice to see you</div>
+    </div>
+<script src="oidc-client.slim.js"></script>
+<script>
+    new Oidc.UserManager({
+        userStore: new Oidc.WebStorageStateStore({store: window.localStorage}),
+        response_mode: "query",
+    }).signinRedirectCallback()
+    .then((user) => {
+        window.location = '/dashboard';
+    })
+</script>
+</body>
+</html>

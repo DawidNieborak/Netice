@@ -1,0 +1,47 @@
+@page
+@model Netice.Api.Pages.Account.Register
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_Layout";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Form.ReturnUrl" value="@Model.Form.ReturnUrl">
+    @* @if (Model.CustomErrors.Count > 0) *@
+    @* { *@
+    @*     <div class="field"> *@
+    @*         @foreach (var error in Model.CustomErrors) *@
+    @*         { *@
+    @*             <div class="error">@error</div> *@
+    @*         } *@
+    @*     </div> *@
+    @* } *@
+
+
+    <div class="circle"></div>
+    <h1>Create an account</h1>
+
+    <label for="username">Username</label>
+    <input class="username" asp-for="Form.Username">
+    <span asp-validation-for="Form.Username" class="error"></span>
+
+    <label for="email">Email</label>
+    <input class="email username" asp-for="Form.Email">
+    <span asp-validation-for="Form.Email" class="error"></span>
+
+    <label for="password">Password</label>
+    <input class="password" asp-for="Form.Password">
+    <span asp-validation-for="Form.Password" class="error"></span>
+
+    <label for="confirmPassowrd">Confirm Password</label>
+    <input class="confirmPassowrd" asp-for="Form.ConfirmPassword">
+    <span asp-validation-for="Form.ConfirmPassword" class="error"></span>
+
+    <button type="submit">Sign Up 👏</button>
+
+    <a class="registerReference" asp-page="/Account/Login" asp-route-returnUrl="@Model.Form.ReturnUrl">Already have an account? Sign in!</a>
+
+    <p class="registerReference">By clicking Sign Up, you agree to our Terms of Service and Privacy Policy.</p>
+    <div class="circle"></div>
+</form>
