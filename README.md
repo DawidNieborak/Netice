@@ -1,11 +1,16 @@
 If this doesnt look right click: (https://github.com/DawidNieborak/Netice/blob/master/README.md)
+<br/><br/>
+See code on github: (https://github.com/DawidNieborak/Netice/tree/development)
 <div id="top"></div>
+<br/><br/>
+![](ezgif-3-b2b3f090df.gif)
+
 <br/><br/>
 
 ## Description
 A web application that allows you to search for your profiles on social media and retrieve data from them, such as the number of likes, 
 the most commented posts, the best comments on the posts. All this data is saved to a CSV file, the user can then analyze this data, 
-so that he will know when to publish his posts, which posts have the most likes and comments. And all this to be more effective on social media.
+so that he will know when to publish his posts, which posts have the most likes and comments. And all this to be more effective on social media. 
 
 <br/><br/>
 ## Built With
@@ -40,7 +45,7 @@ so that he will know when to publish his posts, which posts have the most likes 
 - [ ] Csv file managment react component
 - [ ] business card page
 
-
+If you want to see progrees go to development branch.
 <br/><br/>
 
 ## Author
