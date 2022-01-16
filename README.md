@@ -3,7 +3,7 @@ If this doesnt look right click: (https://github.com/DawidNieborak/Netice/blob/m
 See code on github: (https://github.com/DawidNieborak/Netice/tree/development)
 <div id="top"></div>
 <br/><br/>
-![grab-landing-page](https://github.com/DawidNieborak/Netice/blob/master/ezgif-3-b2b3f090df.gif)
+![Alt Text](https://github.com/DawidNieborak/Netice/blob/master/ezgif-3-b2b3f090df.gif)
 
 <br/><br/>
 
