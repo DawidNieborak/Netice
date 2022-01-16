@@ -3,14 +3,13 @@ If this doesnt look right click: (https://github.com/DawidNieborak/Netice/blob/m
 See code on github: (https://github.com/DawidNieborak/Netice/tree/development)
 <div id="top"></div>
 <br/><br/>
-![Alt Text](https://i.imgur.com/3UiWMgG.gif)
-
-<br/><br/>
 
 ## Description
 A web application that allows you to search for your profiles on social media and retrieve data from them, such as the number of likes, 
 the most commented posts, the best comments on the posts. All this data is saved to a CSV file, the user can then analyze this data, 
 so that he will know when to publish his posts, which posts have the most likes and comments. And all this to be more effective on social media. 
+
+![](https://i.imgur.com/3UiWMgG.gif)
 
 <br/><br/>
 ## Built With
